@@ -1,0 +1,55 @@
+.main-container{
+    background-color:lightskyblue
+}
+body {
+  margin: 0; /* remove default spacing */
+  height: 100vh; /* full viewport height */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:400px;
+    width:600px;
+    border-radius:5px
+}
+.btn{
+  background-color:rgb(44, 48, 181);
+  color:black;
+  padding:10px;
+  border-radius:15px;
+  margin-left:10px;
+  border-width:0px;
+  width:150px;
+}
+.increase-btn{
+  background-color: green;
+  color:white;
+  padding:10px;
+  border-radius:15px;
+  margin-left:10px;
+  border-width:0px;
+  width:150px;
+}
+.decrease-btn{
+  background-color: red;
+  color:white;
+  padding:10px;
+  border-radius:15px;
+  margin-left:10px;
+  border-width:0px;
+  width:150px;
+}
+.span-color{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size:40px;
+}
+.paragraph{
+  font-size: 30px;
+  font-family: "Roboto";
+}
