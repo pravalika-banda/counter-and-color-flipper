@@ -53,3 +53,94 @@ body {
   font-size: 30px;
   font-family: "Roboto";
 }
+
+/* Responsive Design */
+
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+    height: 350px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .paragraph {
+    font-size: 24px;
+  }
+
+  .span-color {
+    font-size: 32px;
+  }
+
+  .btn, .increase-btn, .decrease-btn {
+    width: 140px;
+    padding: 8px;
+    margin-top: 10px;
+  }
+}
+
+/* For small tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container, .counter-container {
+    width: 90%;
+    margin: 20px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .paragraph {
+    font-size: 22px;
+  }
+
+  .span-color {
+    font-size: 28px;
+  }
+
+  .btn, .increase-btn, .decrease-btn {
+    width: 130px;
+    font-size: 14px;
+  }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+    padding: 15px;
+    height: auto;
+  }
+
+  .container, .counter-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .span-color {
+    font-size: 22px;
+  }
+
+  .btn, .increase-btn, .decrease-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin: 8px 0;
+  }
+}
